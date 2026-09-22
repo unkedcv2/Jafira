@@ -11,7 +11,7 @@ export function ParqueSection() {
       color: "bg-emerald-100 text-emerald-800 border-emerald-300",
       title: "Arboleda y Sombra Natural",
       desc: "Especies añosas que brindan un reparo fresco y una atmósfera verde inigualable durante todo el año.",
-      image: "/src/assets/images/ellugar_afuera_04.webp",
+      image: "/assets/images/ellugar_afuera_04.webp",
       alt: "Arboleda y senderos verdes en el parque"
     },
     {
@@ -19,7 +19,7 @@ export function ParqueSection() {
       color: "bg-amber-100 text-amber-800 border-amber-300",
       title: "Atardeceres Únicos",
       desc: "Excelente orientación solar para recepciones al caer el sol y celebraciones diurnas con luz dorada.",
-      image: "/src/assets/images/ellugar_02.webp",
+      image: "/assets/images/ellugar_02.webp",
       alt: "Atardecer mágico en el parque de City Bell"
     },
     {
@@ -27,7 +27,7 @@ export function ParqueSection() {
       color: "bg-teal-100 text-teal-800 border-teal-300",
       title: "Ambientación Nocturna",
       desc: "Iluminación cálida en senderos y copas de árboles para crear una atmósfera de fiesta al anochecer.",
-      image: "/src/assets/images/ellugar_afuera_06.webp",
+      image: "/assets/images/ellugar_afuera_06.webp",
       alt: "Jardines iluminados de noche en Jafira Eventos"
     }
   ];
@@ -38,7 +38,7 @@ export function ParqueSection() {
       {/* Scenic Atmospheric Background Image with Soft Nature Tint */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <img 
-          src="/src/assets/images/ellugar_afuera_04.webp" 
+          src="/assets/images/ellugar_afuera_04.webp" 
           alt="Parque de fondo" 
           className="w-full h-full object-cover object-center opacity-15 filter blur-xs scale-105"
         />
@@ -63,7 +63,7 @@ export function ParqueSection() {
               className="bg-white rounded-3xl h-72 sm:h-84 overflow-hidden shadow-xl relative group border-2 border-emerald-400"
             >
               <img 
-                src="/src/assets/images/ellugar_afuera_04.webp" 
+                src="/assets/images/ellugar_afuera_04.webp" 
                 alt="Parque Jafira Eventos City Bell"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -80,7 +80,7 @@ export function ParqueSection() {
               className="bg-white rounded-3xl h-72 sm:h-84 overflow-hidden shadow-xl relative group mt-10 border-2 border-emerald-400"
             >
               <img 
-                src="/src/assets/images/ellugar_02.webp" 
+                src="/assets/images/ellugar_02.webp" 
                 alt="Atardecer en el Parque"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />

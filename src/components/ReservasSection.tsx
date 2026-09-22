@@ -126,7 +126,7 @@ export function ReservasSection() {
       {/* Subtle celebratory venue background image */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <img 
-          src="/src/assets/images/ellugar_adentro_02.webp" 
+          src="/assets/images/ellugar_adentro_02.webp" 
           alt="Ambiente salón reservas" 
           className="w-full h-full object-cover opacity-10 filter blur-xs scale-105"
         />

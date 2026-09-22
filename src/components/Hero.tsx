@@ -47,9 +47,9 @@ export function Hero() {
           loop 
           playsInline
           className="w-full h-full object-cover scale-105 filter brightness-95 contrast-105"
-          poster="/src/assets/images/ellugar_fachada.webp"
+          poster="/assets/images/ellugar_fachada.webp"
         >
-          <source src="/src/assets/videos/jafira_Video_hero.mp4" type="video/mp4" />
+          <source src="/assets/videos/jafira_Video_hero.mp4" type="video/mp4" />
         </video>
       </div>
 

@@ -12,7 +12,7 @@ export function SalonSection() {
       color: "bg-amber-100 text-amber-800 border-amber-300",
       title: "Luminosidad y Vistas Panorámicas",
       desc: "Salón integrado con amplios ventanales de piso a techo que conectan directamente con el parque.",
-      image: "/src/assets/images/ellugar_adentro_04.webp",
+      image: "/assets/images/ellugar_adentro_04.webp",
       alt: "Ventanales luminosos y vista panorámica"
     },
     {
@@ -20,7 +20,7 @@ export function SalonSection() {
       color: "bg-emerald-100 text-emerald-800 border-emerald-300",
       title: "Distribución Versátil y Dinámica",
       desc: "Arquitectura flexible que se adapta con facilidad a cumpleaños, fiestas infantiles, casamientos o eventos de empresa.",
-      image: "/src/assets/images/ellugar_adentro_02.webp",
+      image: "/assets/images/ellugar_adentro_02.webp",
       alt: "Montaje y distribución versátil"
     },
     {
@@ -28,7 +28,7 @@ export function SalonSection() {
       color: "bg-teal-100 text-teal-800 border-teal-300",
       title: "Galería Semicubierta y Acceso Verde",
       desc: "Transición natural entre la calidez del interior y los senderos al aire libre para disfrutar a toda hora.",
-      image: "/src/assets/images/ellugar_afuera_05.webp",
+      image: "/assets/images/ellugar_afuera_05.webp",
       alt: "Galería semicubierta hacia el parque"
     }
   ];
@@ -138,7 +138,7 @@ export function SalonSection() {
               className="bg-white rounded-3xl h-72 sm:h-84 overflow-hidden shadow-xl relative group border-2 border-amber-300"
             >
               <img 
-                src="/src/assets/images/ellugar_adentro.webp" 
+                src="/assets/images/ellugar_adentro.webp" 
                 alt="Salón Jafira Eventos Interior"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -155,7 +155,7 @@ export function SalonSection() {
               className="bg-white rounded-3xl h-72 sm:h-84 overflow-hidden shadow-xl relative group mt-10 border-2 border-amber-300"
             >
               <img 
-                src="/src/assets/images/ellugar_fachada.webp" 
+                src="/assets/images/ellugar_fachada.webp" 
                 alt="Fachada Jafira Eventos City Bell"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />

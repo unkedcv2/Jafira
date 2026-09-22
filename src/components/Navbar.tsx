@@ -36,7 +36,7 @@ export function Navbar() {
             aria-label="Jafira Eventos Inicio"
           >
             <img 
-              src="/src/assets/logos/jafira_logo.svg" 
+              src="/assets/logos/jafira_logo.svg" 
               alt="Jafira Logo" 
               className={`w-auto object-contain transition-all duration-300 transform group-hover:scale-105 drop-shadow-[0_2px_8px_rgba(245,158,11,0.18)] ${
                 isScrolled 

@@ -8,15 +8,15 @@ export function GaleriaSection() {
   const trackRef = useRef<HTMLDivElement>(null);
 
   const images = [
-    { src: "/src/assets/images/ellugar_01.webp", title: "Vista General del Salón" },
-    { src: "/src/assets/images/ellugar_02.webp", title: "Atardecer en el Parque" },
-    { src: "/src/assets/images/ellugar_adentro_02.webp", title: "Montaje de Fiesta y Pistas" },
-    { src: "/src/assets/images/ellugar_adentro_03.webp", title: "Detalles y Ambientación" },
-    { src: "/src/assets/images/ellugar_adentro_04.webp", title: "Salón Climatizado" },
-    { src: "/src/assets/images/ellugar_afuera_04.webp", title: "Parque Arbolado y Senderos" },
-    { src: "/src/assets/images/ellugar_afuera_05.webp", title: "Espacios Verdes y Jardines" },
-    { src: "/src/assets/images/ellugar_afuera_06.webp", title: "Jardines Iluminados al Anochecer" },
-    { src: "/src/assets/images/ellugar_cumpleaños3.webp", title: "Celebraciones Exclusivas" }
+    { src: "/assets/images/ellugar_01.webp", title: "Vista General del Salón" },
+    { src: "/assets/images/ellugar_02.webp", title: "Atardecer en el Parque" },
+    { src: "/assets/images/ellugar_adentro_02.webp", title: "Montaje de Fiesta y Pistas" },
+    { src: "/assets/images/ellugar_adentro_03.webp", title: "Detalles y Ambientación" },
+    { src: "/assets/images/ellugar_adentro_04.webp", title: "Salón Climatizado" },
+    { src: "/assets/images/ellugar_afuera_04.webp", title: "Parque Arbolado y Senderos" },
+    { src: "/assets/images/ellugar_afuera_05.webp", title: "Espacios Verdes y Jardines" },
+    { src: "/assets/images/ellugar_afuera_06.webp", title: "Jardines Iluminados al Anochecer" },
+    { src: "/assets/images/ellugar_cumpleaños3.webp", title: "Celebraciones Exclusivas" }
   ];
 
   // Double the images array to enable an uninterrupted infinite gliding loop
@@ -104,7 +104,7 @@ export function GaleriaSection() {
       {/* Subtle party photographic atmosphere background */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <img 
-          src="/src/assets/images/ellugar_cumpleaños3.webp" 
+          src="/assets/images/ellugar_cumpleaños3.webp" 
           alt="Fiestas y celebraciones" 
           className="w-full h-full object-cover opacity-10 filter blur-xs scale-105"
         />
@@ -256,7 +256,7 @@ export function GaleriaSection() {
             {/* Jafira Logo fixed at Bottom-Left */}
             <div className="fixed bottom-5 sm:bottom-8 left-5 sm:left-8 z-30 pointer-events-none">
               <img 
-                src="/src/assets/logos/jafira_logo.svg" 
+                src="/assets/logos/jafira_logo.svg" 
                 alt="Jafira Eventos" 
                 className="h-11 sm:h-16 w-auto drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] filter brightness-110"
               />

@@ -9,7 +9,7 @@ export function Footer() {
         <div className="space-y-3 text-center md:text-left flex flex-col items-center md:items-start">
           <a href="#inicio" className="block transform hover:scale-105 transition-transform">
             <img 
-              src="/src/assets/logos/jafira_logo.svg" 
+              src="/assets/logos/jafira_logo.svg" 
               alt="Jafira Logo" 
               className="h-20 sm:h-28 w-auto object-contain drop-shadow-[0_2px_8px_rgba(0,0,0,0.06)]" 
             />
