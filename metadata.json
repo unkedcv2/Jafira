@@ -1,0 +1,6 @@
+{
+  "name": "Jafira Eventos",
+  "description": "Jafira Eventos, salón de eventos en City Bell con amplio parque. Conocé el espacio y consultá por tu próximo evento.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
